@@ -30,10 +30,10 @@ function App() {
                 </Route>
 
                 <Route path='/'>
-                  <h1 style={{ color: 'red' }}>Welcome to Chat room</h1>
-                  <h2>
-                    You can create or select the existing channels to communicate with the people.
-                  </h2>
+                  <h3>
+                    You can <b> create </b> or <b> select</b> the existing channels to communicate
+                    with the people.
+                  </h3>
                 </Route>
               </Switch>
             </div>
