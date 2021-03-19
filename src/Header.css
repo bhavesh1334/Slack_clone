@@ -1,0 +1,52 @@
+/** @format */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--slack-color);
+  padding: 10px 0;
+  color: white;
+}
+.header__left {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+
+.header__left > .MuiSvgIcon-root {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.header__search {
+  flex: 0.4;
+  text-align: center;
+  display: flex;
+  padding: 0 50px;
+  background-color: #58285a;
+  color: gray;
+  border-radius: 6px;
+}
+
+.header__search > input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  /* align-items: center; */
+  text-align: center;
+  min-width: 35vw;
+}
+
+.header__right {
+  flex: 0.3;
+  display: flex;
+  align-items: flex-end;
+}
+
+.header__right > .MuiSvgIcon-root {
+  margin-left: auto;
+  margin-right: 20px;
+}
